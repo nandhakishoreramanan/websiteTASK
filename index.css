@@ -62,7 +62,7 @@
     color: rgb(240, 8, 112);
     font-family: 'Doto', system-ui;
     text-align: center;
-    text-decoration: none;
+    text-decoration: wavy;
 }
 @keyframes textcolour {
     0%{
