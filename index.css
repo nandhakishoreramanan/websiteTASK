@@ -1,0 +1,90 @@
+.title{
+    text-align: center;
+   
+    color: #e476c5;
+    background: none;
+    animation: textcolour 2s steps(1,end) infinite;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: "Silkscreen", system-ui;
+    font-size: 8vw;
+    text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px #f103d9;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+.Hackathon{
+    text-align: center;
+    color: white;
+    font-family: 'Doto', system-ui;
+    margin: 50px;
+    margin-bottom: 100px;
+    font-size: 5vw;
+    text-shadow: 0px 0px 20px #e5e8e5,-1px -1px 5px #e6eae6;
+}
+.info{
+    text-align: center;
+    color: white;
+    font-family: 'Doto', system-ui;
+    margin-top: 20px;
+    font-size: 3.5vw;
+    text-shadow: 0px 0px 20px #e5e8e5,-1px -1px 5px #e5e9e5;
+}
+#carouselExampleFade{
+    margin-top: 100px;
+}
+.memo{
+    margin-left: 20px;
+    color: rgb(9, 232, 83);
+    font-family: 'Doto', system-ui;
+    margin-top: 20px;
+    font-size: 3.5vw;
+    text-shadow: 0px 0px 20px #03f003,-1px -1px 5px #11de11;
+}
+.foot{
+    margin-top: 100px;
+}
+.footext{
+    
+    color: rgb(240, 236, 8);
+    font-family: 'Doto', system-ui;
+    margin-left:20px ;
+    font-size: 3vw;
+    text-shadow: 0px 0px 20px #e5e8e5,-1px -1px 5px rgb(240, 236, 8);}
+@keyframes textcolour {
+    0%{
+        color: #e476c5;
+        font-family: "Press Start 2p", system-ui;
+    
+        text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px #f103d9;
+
+    }
+    25%{color: rgb(99, 236, 102);
+      font-family: "Doto", system-ui;
+    text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px rgb(99, 236, 102);
+    }
+    50%{
+        color: #f0dc03;
+        font-family: "Sixtyfour Convergence", system-ui;
+        text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px #f0dc03;
+    }
+    75%{
+        color: #00fff2;
+        font-family:"Geostar", system-ui;
+        text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px #00fff2;
+        
+    }
+    100%{
+        color: #e91818;
+        font-family: "Press Start 2p", system-ui;
+    
+      text-shadow: 0px 0px 10px #ebe6ea,-1px -1px 20px #e91818;
+    }
+
+}
