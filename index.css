@@ -58,12 +58,15 @@
     margin-left:20px ;
     font-size: 3vw;
     text-shadow: 0px 0px 20px #e5e8e5,-1px -1px 5px rgb(240, 236, 8);}
+
 .link{
     color: rgb(240, 8, 112);
     font-family: 'Doto', system-ui;
     text-align: center;
     text-decoration: wavy;
 }
+
+
 @keyframes textcolour {
     0%{
         color: #e476c5;
@@ -95,3 +98,5 @@
     }
 
 }
+
+/* end of code */
